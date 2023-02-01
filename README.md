@@ -1,11 +1,26 @@
-# Simple Todo List
+# Sample Application with Meteor
 
-The Meteor Tutorial app.
+## Deploy on Scalingo
 
-Use it to share a single todo list with your friends. The list updates on everyone's screen in real time, and you can make tasks private if you don't want others to see them.
+Create an application on https://scalingo.com, then:
 
-Learn how to build this app by following the [Meteor Tutorial](http://www.meteor.com/install).
+```sh
+scalingo --app my-app git-setup
+git push scalingo master
+```
 
-Read more about building apps with Meteor in the [Meteor Guide](http://guide.meteor.com).
+And that's it!
 
-![screenshot](screenshot.png)
+The application is running at this url: https://sample-meteor.osc-fr1.scalingo.io/
+
+## Deploy in One Click
+
+[![Deploy to Scalingo](https://cdn.scalingo.com/deploy/button.svg)](https://my.osc-fr1.scalingo.com/deploy?source=https://github.com/Scalingo/sample-meteor)
+
+## Running Locally
+
+```sh
+docker-compose up
+```
+
+The app listens by default on the port 3000.
