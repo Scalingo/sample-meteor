@@ -1,15 +1,26 @@
-# sample-meteor-todo
+# Sample Application with Meteor
 
-## In dev
+## Deploy on Scalingo
 
-Run the project with:
+Create an application on https://scalingo.com, then:
 
+```sh
+scalingo --app my-app git-setup
+git push scalingo master
 ```
+
+And that's it!
+
+The application is running at this url: https://sample-meteor.osc-fr1.scalingo.io/
+
+## Deploy in One Click
+
+[![Deploy to Scalingo](https://cdn.scalingo.com/deploy/button.svg)](https://my.osc-fr1.scalingo.com/deploy?source=https://github.com/Scalingo/sample-meteor)
+
+## Running Locally
+
+```sh
 docker-compose up
 ```
 
-The application is reachable at [http://localhost:3000/](http://localhost:3000/).
-
-If needed to run any `meteor` command, just run `docker-compose run
-sample-meteor-todo meteor` instead of `meteor`.
-
+The app listens by default on the port 3000.
