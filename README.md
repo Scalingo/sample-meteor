@@ -11,7 +11,7 @@ git push scalingo master
 
 And that's it!
 
-The application is running at this url: https://sample-meteor.osc-fr1.scalingo.io/
+The application is running at this url: https://meteor.is-easy-on-scalingo.com/
 
 ## Deploy in One Click
 
